@@ -8,11 +8,11 @@ types = ['classic', 'grilled', 'double', 'bagel']
 
 if types == 'classic':
     print('Type: Classic')
-elif types == 'grilled':
+else if types == 'grilled':
     print('Type: Grilled')
-elif types == 'double':
+else if types == 'double':
     print('Type: Double Decker')
-elif types == 'bagel':
+else if types == 'bagel':
     print('Type: Bagel')
 
 print('I hope you enjoy your sandwich!')
