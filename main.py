@@ -4,7 +4,7 @@ print('Random Sandwiches')
 
 
 
-types = [ 'classic', 'grilled', 'double', 'bagel', 'soup' ]
+types = [ 'classic', 'grilled', 'double', 'bagel' ]
 spreads = [ 'mayo', 'butter' ]
 t1 = [ 'cheese', 'tomato', 'bacon', 'lettuce', 'turkey', 'pickle', 'olives' ]
 t2 = [ 'cheese', 'tomato', 'bacon', 'lettuce', 'turkey', 'pickle', 'olives' ]
