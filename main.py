@@ -1,4 +1,4 @@
-print('Sandwich Machene')
+print('Sandwich Machine')
 from random import *
 print('Random Sandwiches')
 
