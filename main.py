@@ -6,8 +6,10 @@ print('Random Sandwiches')
 
 types = [ 'classic', 'grilled', 'double', 'bagel' ]
 spreads = [ 'mayo', 'butter' ]
-t1 = [ 'cheese', 'tomato', 'bacon', 'lettuce', 'turkey', 'pickle', 'olives' , 'spaghetti']
-t2 = [ 'cheese', 'tomato', 'bacon', 'lettuce', 'turkey', 'pickle', 'olives' , 'spaghetti']
+#t1 = [ 'cheese', 'tomato', 'bacon', 'lettuce', 'turkey', 'pickle', 'olives' , 'spaghetti']
+#t2 = [ 'cheese', 'tomato', 'bacon', 'lettuce', 'turkey', 'pickle', 'olives' , 'spaghetti']
+t1 = 'spaghetti'
+t2 = '3'
 
 thing1 = choice(t1)
 thing2 = choice(t2)
