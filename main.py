@@ -22,5 +22,5 @@ elif type == 'double':
 elif type == 'bagel':
     print(f'Type: Bagel\nStep 1: Slice a bagel.\nStep 2: {spread.title()} the bagel slices.\nStep 3: Put {thing1} on one of the slices.\nStep 4: Put {thing2} on top of {thing1}.\nStep 5: Put the other slice on.')
 elif type == 'spaghetti':
-    print(f'Type: Classic\nStep 1: Get two spaghettis of spaghetti.\nStep 2: {spread.title()} the spaghetti.\nStep 3: Put {thing1} on one of the spaghettis.\nStep 4: Put {thing2} on top of {thing1}.\nStep 5: Put the other spaghetti on.')
+    print(f'Type: Spaghetti\nStep 1: Get two spaghettis of spaghetti.\nStep 2: {spread.title()} the spaghetti.\nStep 3: Put {thing1} on one of the spaghettis.\nStep 4: Put {thing2} on top of {thing1}.\nStep 5: Put the other spaghetti on.')
 print(f'I hope you enjoy your {thing1} and {thing2} {type} sandwich!')
