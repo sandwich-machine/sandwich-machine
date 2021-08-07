@@ -3,8 +3,8 @@ from random import *
 print('Random Sandwiches')
 
 
-types = [ 'classic', 'grilled', 'double', 'bagel' ]
-spreads = [ 'mayo', 'butter' ]
+types = [ 'classic', 'grilled', 'double', 'bagel', 'spaghetti' ]
+spreads = [ 'mayo', 'butter', 'spaghetti' ]
 t1 = [ 'cheese', 'tomato', 'bacon', 'lettuce', 'turkey', 'pickle', 'olives' , 'spaghetti']
 t2 = [ 'cheese', 'tomato', 'bacon', 'lettuce', 'turkey', 'pickle', 'olives' , 'spaghetti']
 
