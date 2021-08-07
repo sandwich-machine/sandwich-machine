@@ -3,7 +3,7 @@ from random import *
 print('Random Sandwiches')
 
 
-types = [ 'classic', 'grilled', 'double', 'bagel', 'spaghetti' ]
+types = [ 'classic', 'grilled', 'double', 'bagel' ]
 spreads = [ 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti']
 t1 = [ 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti']
 t2 = [ 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti']
