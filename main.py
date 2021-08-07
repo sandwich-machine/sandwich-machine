@@ -4,12 +4,12 @@ print('Random Sandwiches')
 
 
 #types = [ 'classic', 'grilled', 'double', 'bagel' ]
-types = 'spaghetti'
+types = '3'
 #spreads = [ 'mayo', 'butter' ]
-spreads = 'spaghetti'
+spreads = '3'
 #t1 = [ 'cheese', 'tomato', 'bacon', 'lettuce', 'turkey', 'pickle', 'olives' , 'spaghetti']
 #t2 = [ 'cheese', 'tomato', 'bacon', 'lettuce', 'turkey', 'pickle', 'olives' , 'spaghetti']
-t1 = 'spaghetti'
+t1 = '3'
 t2 = '3'
 
 thing1 = choice(t1)
