@@ -4,9 +4,10 @@ print('Random Sandwiches')
 
 
 types = [ 'classic', 'grilled', 'double', 'bagel', 'spaghetti' ]
-spreads = [ 'mayo', 'butter', 'spaghetti' ]
-t1 = [ 'cheese', 'tomato', 'bacon', 'lettuce', 'turkey', 'pickle', 'olives' , 'spaghetti', 'chili pepper', 'ham' ]
-t2 = [ 'cheese', 'tomato', 'bacon', 'lettuce', 'turkey', 'pickle', 'olives' , 'spaghetti', 'chili pepper', 'ham' ]
+spreads = [ 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti']
+t1 = [ 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti']
+t2 = [ 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti', 'spaghetti']
+
 
 thing1 = choice(t1)
 thing2 = choice(t2)
