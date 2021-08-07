@@ -2,7 +2,7 @@ print('Sandwich Machine')
 from random import *
 print('Random Sandwiches')
 
-
+#electron, please dont change all of this to spaghetti
 types = [ 'classic', 'grilled', 'double', 'bagel', 'spaghetti' ]
 spreads = [ 'mayo', 'butter', 'spaghetti', 'peanut butter' ]
 t1 = [ 'cheese', 'tomato', 'bacon', 'lettuce', 'turkey', 'pickle', 'olives' , 'spaghetti', 'chili pepper', 'ham', 'jelly', 'honey', 'avocado' ]
