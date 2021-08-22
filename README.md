@@ -3,4 +3,4 @@ A python program for generating instructions to make random sandwiches.
 
 
 ### Info
-Under the MIT license.
+Under the GPL v3 license.
