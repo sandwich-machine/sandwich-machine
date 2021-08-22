@@ -2,10 +2,10 @@ print('Sandwich Machine')
 from random import *
 print('Random Sandwiches')
 
-types = [ 'spaghetti' ]
-spreads = [ 'mayo', 'butter', 'spaghetti', 'peanut butter' ]
-t1 = [ 'cheese', 'tomato', 'bacon', 'lettuce', 'turkey', 'pickle', 'olives' , 'spaghetti', 'chili pepper', 'ham', 'jelly', 'honey', 'avocado', 'cucumber' ]
-t2 = [ 'cheese', 'tomato', 'bacon', 'lettuce', 'turkey', 'pickle', 'olives' , 'spaghetti', 'chili pepper', 'ham', 'jelly', 'honey', 'avocado', 'cucumber' ]
+types = [ 'classic', 'grilled', 'double', 'bagel', 'spaghetti' ]
+spreads = [ 'mayo', 'butter', 'spaghetti', 'peanut butter', 'avocado', 'cream cheese' ]
+t1 = [ 'cheese', 'tomato', 'bacon', 'lettuce', 'turkey', 'pickle', 'olives' , 'spaghetti', 'chili pepper', 'ham', 'jelly', 'honey', 'avocado', 'cucumber', 'pepperoni', 'salami', 'steak' ]
+t2 = [ 'cheese', 'tomato', 'bacon', 'lettuce', 'turkey', 'pickle', 'olives' , 'spaghetti', 'chili pepper', 'ham', 'jelly', 'honey', 'avocado', 'cucumber', 'pepperoni', 'salami', 'steak' ]
 
 thing1 = choice(t1)
 thing2 = choice(t2)
