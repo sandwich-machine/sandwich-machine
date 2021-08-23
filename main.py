@@ -6,7 +6,7 @@ types = [ 'classic', 'grilled', 'double', 'bagel', 'spaghetti' ]
 spreads = [ 'mayo', 'butter', 'spaghetti', 'peanut butter', 'avocado', 'cream cheese' ]
 t1 = [ 'cheese', 'tomato', 'bacon', 'lettuce', 'turkey', 'pickle', 'olives' , 'spaghetti', 'chili pepper', 'ham', 'jelly', 'honey', 'avocado', 'cucumber', 'pepperoni', 'salami', 'steak' ]
 t2 = [ 'cheese', 'tomato', 'bacon', 'lettuce', 'turkey', 'pickle', 'olives' , 'spaghetti', 'chili pepper', 'ham', 'jelly', 'honey', 'avocado', 'cucumber', 'pepperoni', 'salami', 'steak' ]
-print('github.com/SoupDevHub/Sandwich-Machine\n\n')
+print('github.com/SoupDevHub/Sandwich-Machine\n')
 print('''Menu
 1. Generate a sandwich
 2. Generate a sandwich (and output it to a file)
