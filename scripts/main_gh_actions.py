@@ -1,7 +1,6 @@
 print('Sandwich Machine')
 
 from random import *
-import os
 import quality_control_gh_actions as quality_control
 types = [ 'classic', 'grilled', 'double', 'bagel', 'burger' ]
 print('github.com/SoupDevHub/Sandwich-Machine\n')
