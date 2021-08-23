@@ -3,7 +3,7 @@ print('Sandwich Machine')
 from random import *
 import os
 import quality_control
-types = [ 'classic', 'grilled', 'double', 'bagel', 'spaghetti' ]
+types = [ 'classic', 'grilled', 'double', 'bagel' ]
 print('github.com/SoupDevHub/Sandwich-Machine\n')
 print('''Menu
 1. Generate a sandwich
