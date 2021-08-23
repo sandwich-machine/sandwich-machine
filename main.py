@@ -2,10 +2,8 @@ print('Sandwich Machine')
 
 from random import *
 import os
+import quality_control
 types = [ 'classic', 'grilled', 'double', 'bagel', 'spaghetti' ]
-spreads = [ 'mayo', 'butter', 'spaghetti', 'peanut butter', 'avocado', 'cream cheese' ]
-t1 = [ 'cheese', 'tomato', 'bacon', 'lettuce', 'turkey', 'pickle', 'olives' , 'spaghetti', 'chili pepper', 'ham', 'jelly', 'honey', 'avocado', 'cucumber', 'pepperoni', 'salami', 'steak' ]
-t2 = [ 'cheese', 'tomato', 'bacon', 'lettuce', 'turkey', 'pickle', 'olives' , 'spaghetti', 'chili pepper', 'ham', 'jelly', 'honey', 'avocado', 'cucumber', 'pepperoni', 'salami', 'steak' ]
 print('github.com/SoupDevHub/Sandwich-Machine\n')
 print('''Menu
 1. Generate a sandwich
@@ -15,10 +13,10 @@ Please enter a option between 1-2 (not higher or lower, that may break our syste
 option = input()
 
 if option == "1":
-    thing1 = choice(t1)
-    thing2 = choice(t2)
-    spread = choice(spreads)
     sandwichtype = choice(types)
+    thing1 = choice(quality_control.qcthings(sandwichtype))
+    thing2 = choice(quality_control.qcthings(sandwichtype))
+    spread = choice(quality_control.qcspreads(sandwichtype))
 
     if sandwichtype == 'classic':
         print(f'Type: Classic\nStep 1: Get two slices of bread.\nStep 2: Spread {spread.title()} on the bread.\nStep 3: Put {thing1} on one of the slices.\nStep 4: Put {thing2} on top of {thing1}.\nStep 5: Put the other slice on.')
@@ -41,10 +39,10 @@ if option == "2":
         os.remove("sandwiches.txt")
     f = open('sandwiches.txt', 'x')
     while currentc < sandwiches:
-        thing1 = choice(t1)
-        thing2 = choice(t2)
-        spread = choice(spreads)
         sandwichtype = choice(types)
+        thing1 = choice(quality_control.qcthings(sandwichtype))
+        thing2 = choice(quality_control.qcthings(sandwichtype))
+        spread = choice(quality_control.qcspreads(sandwichtype))
         f = open('sandwiches.txt', 'a')
         f.write(f'I hope you enjoy your {thing1} and {thing2} {sandwichtype} sandwich with {spread}!\n')
         currentc+=1
