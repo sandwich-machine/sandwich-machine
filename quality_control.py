@@ -1,5 +1,3 @@
-from random import *
-
 def qcthings(sandwichtype):
     if sandwichtype == 'classic':
         things = [ 'cheese', 'tuna', 'salmon', 'tomato', 'bacon', 'lettuce', 'turkey', 'pickle', 'olives', 'chili pepper', 'ham', 'avocado', 'cucumber', 'pepperoni', 'salami', 'steak' ]
