@@ -33,5 +33,3 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Run
       run: python3 scripts/main_gh_actions.py
-    - name: Get sandwiches
-      run: cat sandwiches.txt
