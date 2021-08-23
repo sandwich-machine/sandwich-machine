@@ -10,7 +10,7 @@ on:
     branches: [ main ]
 
 jobs:
-  Python-3.9-Build-and-lint:
+  python_build:
 
     runs-on: ubuntu-latest
 
