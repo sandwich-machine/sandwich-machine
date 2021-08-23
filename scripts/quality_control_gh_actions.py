@@ -7,6 +7,8 @@ def qcthings(sandwichtype):
         things = [ 'cheese', 'tuna', 'salmon', 'tomato', 'bacon', 'lettuce', 'turkey', 'pickle', 'olives', 'chili pepper', 'ham', 'cucumber', 'pepperoni', 'salami' ]
     elif sandwichtype == 'bagel':
         things = [ 'cheese', 'tomato', 'bacon', 'lettuce', 'ham', 'avocado', 'cucumber', 'pepperoni', 'salami']
+    if sandwichtype == 'burger':
+        things = [ 'cheese', 'tomato', 'bacon', 'lettuce', 'turkey', 'pickle', 'olives', 'chili pepper', 'cucumber', 'steak' ]
     else:
         things = [ f'error, {sandwichtype} not found ' ]
     return things
@@ -20,6 +22,8 @@ def qcspreads(sandwichtype):
         spreads = [ 'mayo', 'peanut butter', 'jelly', 'honey' ]
     elif sandwichtype == 'bagel':
         spreads = [ 'mayo', 'peanut butter', 'cream cheese', 'jelly', 'honey', 'avocado' ]
+    elif sandwichtype == 'burger':
+        spreads = [ 'mayo', 'cream cheese', 'honey' ]
     else:
         things = [ f'error, {sandwichtype} not found ' ]
     return spreads
