@@ -32,7 +32,7 @@ if option == "1":
         print(f'Type: Spaghetti\nStep 1: Get two spaghettis of spaghetti.\nStep 2: Spread {spread.title()} on the bread.\nStep 3: Put {thing1} on one of the spaghettis.\nStep 4: Put {thing2} on top of {thing1}.\nStep 5: Put the other spaghetti on.')
     print(f'I hope you enjoy your {thing1} and {thing2} {sandwichtype} sandwich with {spread}!')
 if option == "2":
-    print('How many sandwiches? (Too much may lag the system')
+    print('How many sandwiches? (Too much may lag the system)')
     sandwiches = input()
     sandwiches = int(sandwiches)
     currentc = 0
