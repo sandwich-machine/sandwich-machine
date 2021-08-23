@@ -40,8 +40,6 @@ if option == "2":
     if os.path.exists("sandwiches.txt"):
         os.remove("sandwiches.txt")
     f = open('sandwiches.txt', 'x')
-    f = open('sandwiches.txt', 'w')
-    f.write('')
     while currentc < sandwiches:
         thing1 = choice(t1)
         thing2 = choice(t2)
