@@ -36,10 +36,9 @@ if option == "2":
         thing2 = choice(quality_control.qcthings(sandwichtype))
         spread = choice(quality_control.qcspreads(sandwichtype))
         f = open('sandwiches.txt', 'a')
-        f.write('-----------------------------------------------')
         f.write(recipe.getrecipe(sandwichtype, thing1, thing2, spread))
-        f.write(f'I hope you enjoy your {thing1} and {thing2} {sandwichtype} sandwich with {spread}!\n')
-        f.write('-----------------------------------------------')
+        f.write(f'\nI hope you enjoy your {thing1} and {thing2} {sandwichtype} sandwich with {spread}!\n')
+        f.write('-----------------------------------------------\n')
         currentc+=1
     print("Finished outputting to sandwiches.txt! See it now!")
 
