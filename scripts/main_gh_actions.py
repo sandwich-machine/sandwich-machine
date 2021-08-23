@@ -6,7 +6,7 @@ import quality_control_gh_actions as quality_control
 types = [ 'classic', 'grilled', 'double', 'bagel' ]
 print('github.com/SoupDevHub/Sandwich-Machine\n')
 print('How many sandwiches? (Too much may lag the system)')
-sandwiches = 5
+sandwiches = 10
 currentc = 0
     
 if os.path.exists("sandwiches.txt"):
