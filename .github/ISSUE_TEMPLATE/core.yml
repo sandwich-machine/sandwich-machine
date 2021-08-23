@@ -35,9 +35,9 @@ body:
   validations:
     required: false
 - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this issue! If you want to add some code, make a pull request [here](https://github.com/sandwich-machine/sandwich-machine/pulls) mentioning this issue.
+  attributes:
+    value: |
+      Thanks for taking the time to fill out this issue! If you want to add some code, make a pull request [here](https://github.com/sandwich-machine/sandwich-machine/pulls) mentioning this issue.
   
 - type: checkboxes
   attributes:
