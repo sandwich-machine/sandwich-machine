@@ -2,10 +2,11 @@
  <h1 align="center">Sandwich-Machine</h1>
 </p>
   <p align="center">
-    <img src="https://img.shields.io/github/repo-size/SoupDevHub/Sandwich-Machine?style=for-the-badge"/>
-    <img src="https://img.shields.io/github/languages/top/SoupDevHub/Sandwich-Machine?style=for-the-badge"/>
-    <img src="https://img.shields.io/github/downloads/SoupDevHub/Sandwich-Machine/total?style=for-the-badge"/>
-    <img src="https://img.shields.io/github/commit-activity/m/SoupDevHub/Sandwich-Machine?style=for-the-badge"/>
+    <img src="https://img.shields.io/github/repo-size/sandwich-machine/sandwich-machine?style=for-the-badge"/>
+    <img src="https://img.shields.io/github/languages/top/sandwich-machine/sandwich-machine?style=for-the-badge"/>
+    <img src="https://img.shields.io/github/downloads/sandwich-machine/sandwich-machine/total?style=for-the-badge"/>
+    <img src="https://img.shields.io/github/commit-activity/m/sandwich-machine/sandwich-machine?style=for-the-badge"/>
+    <img src="https://img.shields.io/tokei/lines/github/sandwich-machine/sandwich-machine?style=for-the-badge"/>
   </p>
 
 # About
