@@ -6,6 +6,13 @@
   "commit": false,
   "contributors": [
     {
+      "login": "electron271",
+      "name": "electron271",
+      "avatar_url": "https://avatars.githubusercontent.com/u/66094410?v=4",
+      "profile": "https://github.com/electron271",
+      "contributions": [
+        "code",
+        "doc"
       "login": "SoupDevHub",
       "name": "Soup",
       "avatar_url": "https://avatars.githubusercontent.com/u/77903666?v=4",

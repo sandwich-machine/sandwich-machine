@@ -25,6 +25,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
+    <td align="center"><a href="https://github.com/electron271"><img src="https://avatars.githubusercontent.com/u/66094410?v=4?s=100" width="100px;" alt=""/><br /><sub><b>electron271</b></sub></a><br /><a href="https://github.com/sandwich-machine/sandwich-machine/commits?author=electron271" title="Code">💻</a> <a href="https://github.com/sandwich-machine/sandwich-machine/commits?author=electron271" title="Documentation">📖</a></td>
     <td align="center"><a href="https://www.youtube.com/channel/UCIac3STxdtWZeNtL8RUrCZg"><img src="https://avatars.githubusercontent.com/u/77903666?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Soup</b></sub></a><br /><a href="https://github.com/sandwich-machine/sandwich-machine/commits?author=SoupDevHub" title="Documentation">📖</a> <a href="https://github.com/sandwich-machine/sandwich-machine/commits?author=SoupDevHub" title="Code">💻</a></td>
   </tr>
 </table>
