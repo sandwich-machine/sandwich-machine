@@ -5,7 +5,7 @@ import os
 import quality_control
 import recipe
 types = [ 'classic', 'grilled', 'double', 'bagel', 'burger' ]
-print('github.com/SoupDevHub/Sandwich-Machine\n')
+print('sandwich-machine.github.io\n')
 print('''Menu
 1. Generate a sandwich
 2. Generate a sandwich (and output it to a file)
