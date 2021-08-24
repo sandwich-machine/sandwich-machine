@@ -1,0 +1,25 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "SoupDevHub",
+      "name": "Soup",
+      "avatar_url": "https://avatars.githubusercontent.com/u/77903666?v=4",
+      "profile": "https://www.youtube.com/channel/UCIac3STxdtWZeNtL8RUrCZg",
+      "contributions": [
+        "doc",
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "sandwich-machine",
+  "projectOwner": "sandwich-machine",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
