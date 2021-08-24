@@ -10,7 +10,6 @@
   </p>
 
 # About
-<img src="https://img.shields.io/badge/3lec%20certified-github.com%2F3lec-sucess?logo=checkmarx"/>
 A generator to generate random sandwiches
 
 # Credits
