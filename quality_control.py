@@ -1,14 +1,14 @@
 def qcthings(sandwichtype):
     if sandwichtype == 'classic':
-        things = [ 'cheese', 'tuna', 'salmon', 'tomato', 'bacon', 'lettuce', 'turkey', 'pickle', 'olives', 'chili pepper', 'ham', 'avocado', 'cucumber', 'pepperoni', 'salami', 'steak' ]
+        things = [ 'cheese', 'chicken', 'tuna', 'salmon', 'tomato', 'bacon', 'lettuce', 'turkey', 'pickle', 'olives', 'chili pepper', 'ham', 'avocado', 'cucumber', 'pepperoni', 'salami', 'steak' ]
     elif sandwichtype == 'grilled':
-        things = [ 'cheese', 'tuna', 'salmon', 'tomato', 'bacon', 'turkey', 'pickle', 'olives', 'chili pepper', 'ham', 'pepperoni', 'salami', 'steak' ]
+        things = [ 'cheese', 'chicken', 'tuna', 'salmon', 'tomato', 'bacon', 'turkey', 'pickle', 'olives', 'chili pepper', 'ham', 'pepperoni', 'salami', 'steak' ]
     elif sandwichtype == 'double':
-        things = [ 'cheese', 'tuna', 'salmon', 'tomato', 'bacon', 'lettuce', 'turkey', 'pickle', 'olives', 'chili pepper', 'ham', 'cucumber', 'pepperoni', 'salami' ]
+        things = [ 'cheese', 'chicken', 'tuna', 'salmon', 'tomato', 'bacon', 'lettuce', 'turkey', 'pickle', 'olives', 'chili pepper', 'ham', 'cucumber', 'pepperoni', 'salami' ]
     elif sandwichtype == 'bagel':
         things = [ 'cheese', 'tomato', 'bacon', 'lettuce', 'ham', 'avocado', 'cucumber', 'pepperoni', 'salami']
     elif sandwichtype == 'burger':
-        things = [ 'cheese', 'tomato', 'bacon', 'lettuce', 'turkey', 'pickle', 'olives', 'chili pepper', 'cucumber', 'steak' ]
+        things = [ 'cheese', 'chicken', 'tomato', 'bacon', 'lettuce', 'turkey', 'pickle', 'olives', 'chili pepper', 'cucumber', 'steak' ]
     else:
         things = [ f'error, {sandwichtype} not found ' ]
     return things
