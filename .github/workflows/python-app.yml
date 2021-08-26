@@ -48,4 +48,4 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Generate a sandwich
       run: |
-        python3 scripts/main.py
+        python3 scripts/main_gh_actions.py
