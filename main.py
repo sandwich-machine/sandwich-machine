@@ -19,6 +19,7 @@ print('sandwich-machine.github.io\n') # Website
 
 if args.ghactions:
     option = 2
+    sandwiches = 7
     print('[DEBUG] Sucessful argument')
 else:
     print('''Menu
@@ -27,7 +28,7 @@ else:
     Please enter a option between 1-2 (not higher or lower, that may break our system)''') # Load Menu
     option = input()
 
-if option == "1": # Generate a sandwich
+if option == '1': # Generate a sandwich
     sandwichtype = choice(types) # Get the type
     thing1 = choice(quality_control.qcthings(sandwichtype)) # Get thing1
     thing2 = choice(quality_control.qcthings(sandwichtype)) # Get thing2
@@ -35,13 +36,9 @@ if option == "1": # Generate a sandwich
 
     print(recipe.getrecipe(sandwichtype, thing1, thing2, spread)) # Get the recipe
     print(f'I hope you enjoy your {thing1} and {thing2} {sandwichtype} sandwich with {spread}!') # Output type
-if option == "2": # Generate a sandwich (and output it to a file)
-    if args.ghactions:
-        sandwiches = 5
-        print('[DEBUG] Sucessful argument')
-    else:
-        print('How many sandwiches? (Too much may lag the system)') # Get how many sandwiches
-        sandwiches = input() # Get input 
+if option == '2': # Generate a sandwich (and output it to a file)
+    print('How many sandwiches? (Too much may lag the system)') # Get how many sandwiches
+    sandwiches = input() # Get input 
     sandwiches = int(sandwiches) # Convert input to a integer
     currentc = 0
     
@@ -57,5 +54,6 @@ if option == "2": # Generate a sandwich (and output it to a file)
         f.write(f'\nI hope you enjoy your {thing1} and {thing2} {sandwichtype} sandwich with {spread}!\n') # output type
         f.write('-----------------------------------------------\n') # line
         currentc+=1 # next sandwich
+        print('[DEBUG] sandwich count: {}'.format(currentc))
     print("Finished outputting to sandwiches.txt! See it now!") # confirmation
 
