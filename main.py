@@ -16,14 +16,15 @@ args = parser.parse_args()
 
 types = [ 'classic', 'grilled', 'double', 'bagel', 'burger' ]
 print('sandwich-machine.github.io\n') # Website
-print('''Menu
-1. Generate a sandwich
-2. Generate a sandwich (and output it to a file)
-Please enter a option between 1-2 (not higher or lower, that may break our system)''') # Load Menu
 
 if args.ghactions:
     option = 2
+    print('[DEBUG] Sucessful argument')
 else:
+    print('''Menu
+    1. Generate a sandwich
+    2. Generate a sandwich (and output it to a file)
+    Please enter a option between 1-2 (not higher or lower, that may break our system)''') # Load Menu
     option = input()
 
 if option == "1": # Generate a sandwich
@@ -37,6 +38,7 @@ if option == "1": # Generate a sandwich
 if option == "2": # Generate a sandwich (and output it to a file)
     if args.ghactions:
         sandwiches = 5
+        print('[DEBUG] Sucessful argument')
     else:
         print('How many sandwiches? (Too much may lag the system)') # Get how many sandwiches
         sandwiches = input() # Get input 
