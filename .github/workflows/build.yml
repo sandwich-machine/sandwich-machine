@@ -1,4 +1,4 @@
-name: Pylint
+name: Make Sandwiches
 
 on: [push]
 
@@ -19,7 +19,7 @@ jobs:
         python -m pip install --upgrade pip
     - name: Generate sandwiches
       run: |
-        python3 main.py -g
+        python3 main.py --ghactions
     - name: Read sandwiches
       run: |
         cat sandwiches.txt
