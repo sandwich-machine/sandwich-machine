@@ -18,7 +18,7 @@ types = [ 'classic', 'grilled', 'double', 'bagel', 'burger' ]
 print('sandwich-machine.github.io\n') # Website
 
 if args.ghactions:
-    option = 2
+    option = '2'
     sandwiches = 7
     print('[DEBUG] Sucessful argument')
 else:
