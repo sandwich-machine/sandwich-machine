@@ -46,5 +46,3 @@ body:
     options:
       - label: I agree to follow this project's Code of Conduct
         required: true
-      - label: By submitting this request, Any of your code you add has been placed under the GPLv3
-        required: true
