@@ -27,3 +27,12 @@ def qcspreads(sandwichtype):
     else: # If the sandwich type is not defined here, set the spread to "error, sandwichtype not found"
         things = [ f'error, {sandwichtype} not found ' ]
     return spreads # Return the spreads
+
+
+def pmthings(sandwichtype):
+    things = [ 'cheese', 'chicken', 'tuna', 'salmon', 'tomato', 'bacon', 'lettuce', 'turkey', 'pickle', 'olives', 'chili pepper', 'ham', 'avocado', 'cucumber', 'pepperoni', 'salami', 'steak', 'jelly' ]
+    return things
+    
+def pmspreads(sandwichtype):
+    spreads = [ 'nothing', 'mayo', 'peanut butter', 'avocado', 'honey', 'cream cheese' ]
+    return spreads
