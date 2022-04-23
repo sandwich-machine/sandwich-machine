@@ -31,6 +31,8 @@ def qcspreads(sandwichtype):
 
 def pmthings(sandwichtype):
     things = [ 'cheese', 'chicken', 'tuna', 'salmon', 'tomato', 'bacon', 'lettuce', 'turkey', 'pickle', 'olives', 'chili pepper', 'ham', 'avocado', 'cucumber', 'pepperoni', 'salami', 'steak', 'jelly' ]
+    return things
     
 def pmspreads(sandwichtype):
     spreads = [ 'nothing', 'mayo', 'peanut butter', 'avocado', 'honey', 'cream cheese' ]
+    return spreads
