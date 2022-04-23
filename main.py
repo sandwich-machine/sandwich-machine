@@ -35,11 +35,11 @@ if option1 == '1': # Generate a sandwich
         2. Vegan
         Please enter a option between 1-2''')
         option3 = input()
-        if option3 == '1':
+        if option2 == '1':
             thing1 = choice(quality_control.qcvtthings(sandwichtype)) # Get thing1
             thing2 = choice(quality_control.qcvtthings(sandwichtype)) # Get thing2
             spread = choice(quality_control.qcvtspreads(sandwichtype)) # Get spread
-        if option3 == '2':
+        if option2 == '2':
             thing1 = choice(quality_control.qcvthings(sandwichtype)) # Get thing1
             thing2 = choice(quality_control.qcvthings(sandwichtype)) # Get thing2
             spread = choice(quality_control.qcvspreads(sandwichtype)) # Get spread
