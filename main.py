@@ -12,28 +12,19 @@ print('sandwich-machine.github.io\n') # Website
 print('''Menu
 1. Generate a sandwich
 2. Generate a sandwich (and output it to a file)
-Please enter a option between 1-2''') # Load Menu
-option1 = input()
-print('''Menu
-1. Quality Control
-2. P U R E  M A D N E S S
-Please enter a option between 1-2''')
-option2 = input()
+3. Pure Madness
+Please enter a option between 1-3''') # Load Menu
+option = input()
 
-if option1 == '1': # Generate a sandwich
+if option == '1': # Generate a sandwich
     sandwichtype = choice(types) # Get the type
-    if option2 == '1':
-        thing1 = choice(quality_control.qcthings(sandwichtype)) # Get thing1
-        thing2 = choice(quality_control.qcthings(sandwichtype)) # Get thing2
-        spread = choice(quality_control.qcspreads(sandwichtype)) # Get spread
-    if option2 == '2':
-        thing1 = choice(quality_control.qcthings(sandwichtype)) # Get thing1
-        thing2 = choice(quality_control.qcthings(sandwichtype)) # Get thing2
-        spread = choice(quality_control.qcspreads(sandwichtype)) # Get spread
+    thing1 = choice(quality_control.qcthings(sandwichtype)) # Get thing1
+    thing2 = choice(quality_control.qcthings(sandwichtype)) # Get thing2
+    spread = choice(quality_control.qcspreads(sandwichtype)) # Get spread
 
     print(recipe.getrecipe(sandwichtype, thing1, thing2, spread)) # Get the recipe
     print(f'I hope you enjoy your {thing1} and {thing2} {sandwichtype} sandwich with {spread}!') # Output type
-if option1 == '2': # Generate a sandwich (and output it to a file)
+if option == '2': # Generate a sandwich (and output it to a file)
     print('How many sandwiches? (Too much may lag the system)') # Get how many sandwiches
     sandwiches = input() # Get input
     sandwiches = int(sandwiches) # Convert input to a integer
