@@ -7,6 +7,7 @@
     <img src="https://img.shields.io/github/commit-activity/w/sandwich-machine/sandwich-machine?style=for-the-badge"/>
     <img src="https://img.shields.io/tokei/lines/github/sandwich-machine/sandwich-machine?style=for-the-badge"/>
   </p>
+  
 # How to run
 1. Install [python](https://www.python.org/downloads/) if you haven't already.
 2. Double click run.bat
