@@ -6,6 +6,7 @@
     <img src="https://img.shields.io/github/languages/top/sandwich-machine/sandwich-machine?style=for-the-badge"/>
     <img src="https://img.shields.io/github/commit-activity/w/sandwich-machine/sandwich-machine?style=for-the-badge"/>
     <img src="https://img.shields.io/tokei/lines/github/sandwich-machine/sandwich-machine?style=for-the-badge"/>
+    <img src="https://img.shields.io/github/downloads/sandwich-machine/sandwich-machine/total?style=for-the-badge"/>
   </p>
   
 # How to run
