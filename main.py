@@ -9,14 +9,16 @@ import recipe
 types = [ 'classic', 'grilled', 'double', 'bagel', 'burger' ]
 print('sandwich-machine.github.io\n') # Website
 
-print('''Menu
+print('''------------------------------------------------
+Menu
 1. Generate a sandwich
 2. Generate a sandwich (and output it to a file)
-Please enter a option between 1-2''') # Load Menu
+Please enter a option between 1-2
+------------------------------------------------''') # Load Menu
 option1 = input()
-print('''Menu
+print('''\nSettings
 1. Quality Control
-2. P U R E  M A D N E S S
+2. Pure Madness
 Please enter a option between 1-2''')
 option2 = input()
 
