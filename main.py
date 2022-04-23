@@ -18,9 +18,8 @@ Please enter a option between 1-2
 option1 = input()
 print('''\nSettings
 1. Quality Control
-2. Quality Control (With diets)
-3. Pure Madness
-Please enter a option between 1-3''')
+2. Pure Madness
+Please enter a option between 1-2''')
 option2 = input()
 
 if option1 == '1': # Generate a sandwich
@@ -30,20 +29,6 @@ if option1 == '1': # Generate a sandwich
         thing2 = choice(quality_control.qcthings(sandwichtype)) # Get thing2
         spread = choice(quality_control.qcspreads(sandwichtype)) # Get spread
     if option2 == '2':
-        print('''\nDiets
-        1. Vegetarian
-        2. Vegan
-        Please enter a option between 1-2''')
-        option3 = input()
-        if option2 == '1':
-            thing1 = choice(quality_control.qcvtthings(sandwichtype)) # Get thing1
-            thing2 = choice(quality_control.qcvtthings(sandwichtype)) # Get thing2
-            spread = choice(quality_control.qcvtspreads(sandwichtype)) # Get spread
-        if option2 == '2':
-            thing1 = choice(quality_control.qcvthings(sandwichtype)) # Get thing1
-            thing2 = choice(quality_control.qcvthings(sandwichtype)) # Get thing2
-            spread = choice(quality_control.qcvspreads(sandwichtype)) # Get spread
-    if option2 == '3':
         thing1 = choice(quality_control.pmthings(sandwichtype)) # Get thing1
         thing2 = choice(quality_control.pmthings(sandwichtype)) # Get thing2
         spread = choice(quality_control.pmspreads(sandwichtype)) # Get spread
