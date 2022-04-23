@@ -12,7 +12,8 @@ print('sandwich-machine.github.io\n') # Website
 print('''Menu
 1. Generate a sandwich
 2. Generate a sandwich (and output it to a file)
-Please enter a option between 1-2''') # Load Menu
+3. Pure Madness
+Please enter a option between 1-3''') # Load Menu
 option = input()
 
 if option == '1': # Generate a sandwich
@@ -43,4 +44,11 @@ if option == '2': # Generate a sandwich (and output it to a file)
         currentc+=1 # next sandwich
     f.write(f'sandwich-machine.github.io') # Add website to end of file
     print("Finished outputting to sandwiches.txt! See it now!") # confirmation
+if option == '3': # Generate a madness sandwich
+    sandwichtype = choice(types) # Get the type
+    thing1 = choice(quality_control.pmthings(sandwichtype)) # Get thing1
+    thing2 = choice(quality_control.pmthings(sandwichtype)) # Get thing2
+    spread = choice(quality_control.pmspreads(sandwichtype)) # Get spread
 
+    print(recipe.getrecipe(sandwichtype, thing1, thing2, spread)) # Get the recipe
+    print(f'I hope you enjoy your {thing1} and {thing2} {sandwichtype} sandwich with {spread}!') # Output type
