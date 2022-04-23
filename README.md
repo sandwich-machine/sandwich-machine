@@ -24,7 +24,7 @@ A generator to generate random sandwiches
 >
 > Fun Fact: He called his projects "Trash projects".. even though I think they're awesome!
 
-[electron271](https://github.com/electron271) - Development, Documentation, Linux testing and Github Actions
+[electron271](https://github.com/electron271) - Development, Documentation, Testing
 > OS: Windows
 > 
 > Langs: Max, Python
