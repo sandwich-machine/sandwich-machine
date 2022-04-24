@@ -12,7 +12,7 @@
 1. Install [python](https://www.python.org/downloads/) if you haven't already.
 2. Double click run.bat
 
-## If you already have python installed you may need to update it to 3.10.4
+If you already have python installed you may need to update it to 3.10.4
 
 # About
 A generator to generate random sandwiches
