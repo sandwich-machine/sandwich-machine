@@ -7,12 +7,13 @@
     <img src="https://img.shields.io/github/commit-activity/w/sandwich-machine/sandwich-machine?style=for-the-badge"/>
     <img src="https://img.shields.io/tokei/lines/github/sandwich-machine/sandwich-machine?style=for-the-badge"/>
     <img src="https://img.shields.io/github/downloads/sandwich-machine/sandwich-machine/total?style=for-the-badge"/>
-  </p>
-# How to run
+</p>
+
+# How To Run
 1. Install [python](https://www.python.org/downloads/) if you haven't already.
 2. Double click run.bat
 
-If you already have python installed you may need to update it to 3.10.4
+### If you already have python installed you may need to update it to 3.10.4
 
 # About
 A generator to generate random sandwiches
