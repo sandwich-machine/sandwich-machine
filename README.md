@@ -1,5 +1,5 @@
 <p align="center">
- <h1 align="center">Sandwich-Machine</h1>
+ <h1 align="center">Sandwich Machine</h1>
 </p>
   <p align="center">
     <img src="https://img.shields.io/github/repo-size/sandwich-machine/sandwich-machine?style=for-the-badge"/>
@@ -8,6 +8,9 @@
     <img src="https://img.shields.io/tokei/lines/github/sandwich-machine/sandwich-machine?style=for-the-badge"/>
     <img src="https://img.shields.io/github/downloads/sandwich-machine/sandwich-machine/total?style=for-the-badge"/>
   </p>
+# WARNING:
+This is gitting very difficult for even me, to run. I can not garruntee it will work. You may need to update python.
+  
   
 # How to run
 1. Install [python](https://www.python.org/downloads/) if you haven't already.
