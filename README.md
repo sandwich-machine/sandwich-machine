@@ -9,16 +9,16 @@
     <img src="https://img.shields.io/github/downloads/sandwich-machine/sandwich-machine/total?style=for-the-badge"/>
 </p>
 
-# How To Run
+## How To Run
 1. Install [python](https://www.python.org/downloads/) if you haven't already.
 2. Double click run.bat
 
 ### If you already have python installed you may need to update it to 3.10.4
 
-# About
+## About
 A generator to generate random sandwiches
 
-# Credits
+## Credits
 
 [Soup](https://github.com/SoupDevHub) - Main development, Documentation
 > OS: Windows
