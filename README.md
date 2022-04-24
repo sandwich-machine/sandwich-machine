@@ -13,21 +13,23 @@
 1. Install [python](https://www.python.org/downloads/) if you haven't already.
 2. Double click run.bat
 
-### If you already have python installed you may need to update it to 3.10.4
+**If you already have python installed you may need to update it to 3.10.4**
 
 ## About
 A generator to generate random sandwiches
 
 ## Credits
 
-[Soup](https://github.com/SoupDevHub) - Main development, Documentation
+> **[Soup](https://github.com/SoupDevHub) - Main development, Documentation**
+> 
 > OS: Windows
 >
 > Langs: JS, Python, Does C# off github
 >
 > Fun Fact: He called his projects "Trash projects".. even though I think they're awesome!
 
-[electron271](https://github.com/electron271) - Development, Documentation, Testing
+> **[electron271](https://github.com/electron271) - Development, Documentation, Testing**
+> 
 > OS: Windows
 > 
 > Langs: Max, Python
