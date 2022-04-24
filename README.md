@@ -8,13 +8,11 @@
     <img src="https://img.shields.io/tokei/lines/github/sandwich-machine/sandwich-machine?style=for-the-badge"/>
     <img src="https://img.shields.io/github/downloads/sandwich-machine/sandwich-machine/total?style=for-the-badge"/>
   </p>
-# WARNING:
-This is gitting very difficult for even me, to run. I can not garruntee it will work. You may need to update python.
-  
-  
 # How to run
 1. Install [python](https://www.python.org/downloads/) if you haven't already.
 2. Double click run.bat
+
+## If you already have python installed you may need to update it to 3.10.4
 
 # About
 A generator to generate random sandwiches
