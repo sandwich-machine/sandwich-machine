@@ -15,15 +15,15 @@ def qcthings(sandwichtype):
 
 def qcspreads(sandwichtype):
     if sandwichtype == 'classic':  # If sandwich type is classic, give the list of spreads below
-        spreads = [ 'nothing', 'mayo', 'peanut butter', 'avocado', 'honey', 'cream cheese' ]
+        spreads = [ 'nothing', 'mayo', 'peanut butter', 'avocado', 'honey', 'cream cheese', 'mustard', 'ketchup' ]
     elif sandwichtype == 'grilled':  # If sandwich type is grilled, give the list of spreads below
-        spreads = [ 'nothing', 'mayo', 'avocado', 'honey' ]
+        spreads = [ 'nothing', 'mayo', 'avocado', 'honey', 'mustard', 'ketchup' ]
     elif sandwichtype == 'double':  # If sandwich type is double, give the list of spreads below
-        spreads = [ 'nothing', 'mayo', 'peanut butter', 'avocado', 'honey', 'cream cheese' ]
+        spreads = [ 'nothing', 'mayo', 'peanut butter', 'avocado', 'honey', 'cream cheese', 'mustard', 'ketchup' ]
     elif sandwichtype == 'bagel':  # If sandwich type is bagel, give the list of spreads below
         spreads = [ 'nothing', 'peanut butter', 'cream cheese', 'avocado' ]
     elif sandwichtype == 'burger':  # If sandwich type is burger, give the list of spreads below
-        spreads = [ 'nothing', 'mayo', 'butter' ]
+        spreads = [ 'nothing', 'mayo', 'butter', 'mustard', 'ketchup' ]
     else: # If the sandwich type is not defined here, set the spread to "error, sandwichtype not found"
         things = [ f'error, {sandwichtype} not found ' ]
     return spreads # Return the spreads
@@ -34,5 +34,5 @@ def pmthings(sandwichtype):
     return things
     
 def pmspreads(sandwichtype):
-    spreads = [ 'nothing', 'mayo', 'peanut butter', 'avocado', 'honey', 'cream cheese' ]
+    spreads = [ 'nothing', 'mayo', 'peanut butter', 'avocado', 'honey', 'cream cheese', 'mustard', 'ketchup' ]
     return spreads
