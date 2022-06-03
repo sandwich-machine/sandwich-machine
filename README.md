@@ -20,7 +20,7 @@ A generator to generate random sandwiches
 
 ## Credits
 
-> **[Soup](https://github.com/SoupDevHub) - Main development, Documentation**
+> **[Soup](https://github.com/SoupDevHub) - Main development, Documentation, Professional Gigachad**
 > 
 > OS: Windows
 >
