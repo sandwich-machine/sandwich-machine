@@ -12,8 +12,11 @@
 
 ## How To Run
 
-1. Install [python 3.10.4+](https://www.python.org/downloads/) if you haven't already.
-2. Double click run.bat (or run.sh if you're on mac or linux)
+### Traditional Install 🐍
+
+ℹ️ Requires [Python 3.10.4+](https://www.python.org/downloads/)
+
+1. Double click run.bat (or run.sh if you're on mac or linux)
 
 ### Docker (_multi-platform sandwiching!_) 🐳
 
@@ -44,3 +47,7 @@ Subsequent runs will use the existing local image. To update, simply:
 > Langs: Max, Python
 > 
 > Fun Fact: I'm a musician on soundcloud
+
+#### contributors
+
+> **[gravcat](https://github.com/gravcat) - submitted an pr that one time to containerize**
