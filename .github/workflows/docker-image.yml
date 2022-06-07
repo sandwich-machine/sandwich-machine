@@ -24,9 +24,6 @@ jobs:
         registry: ${{ env.REGISTRY }}
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
-    - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag sandwich-machine:$(date +%s)
-
 
     - name: Extract metadata (tags, labels) for Docker
       id: meta
