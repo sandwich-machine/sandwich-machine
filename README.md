@@ -1,5 +1,6 @@
 <p align="center">
  <h1 align="center">Sandwich Machine</h1>
+ <h5 align="center"><i>:sandwich: A generator to generate random sandwiches :sandwich:</i></h5>
 </p>
   <p align="center">
     <img src="https://img.shields.io/github/repo-size/sandwich-machine/sandwich-machine?style=for-the-badge"/>
@@ -10,13 +11,21 @@
 </p>
 
 ## How To Run
-1. Install [python](https://www.python.org/downloads/) if you haven't already.
+
+1. Install [python 3.10.4+](https://www.python.org/downloads/) if you haven't already.
 2. Double click run.bat (or run.sh if you're on mac or linux)
 
-**If you already have python installed you may need to update it to 3.10.4**
+### Docker (_multi-platform sandwiching!_) 🐳
 
-## About
-A generator to generate random sandwiches
+ℹ️ Requires [Docker](https://docs.docker.com/engine/install/)
+
+The following command will download the small docker image, and execute interactively for expedient, effective sandwich generation.
+
+`docker run -it ghcr.io/sandwich-machine/sandwich-machine:main`
+
+Subsequent runs will use the existing local image. To update, simply:
+
+`docker pull ghcr.io/sandwich-machine/sandwich-machine:main`
 
 ## Credits
 
