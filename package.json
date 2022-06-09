@@ -2,9 +2,9 @@
   "name": "sandwich-machine",
   "version": "1.0.0",
   "description": "Leaders in sandwich innovation",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
-    "run": "node main.js"
+    "run": "node index.js"
   },
   "repository": {
     "type": "git",
