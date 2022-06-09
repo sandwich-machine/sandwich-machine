@@ -1,3 +1,3 @@
 #!/bin/bash
-// Run main.py
-python3 main.py
+// Run index.js
+node run
