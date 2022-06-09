@@ -4,6 +4,7 @@ title: "[SANDWICH] <title>"
 labels: [sandwich]
 assignees:
   - electron271
+  - SoupHuman
 body:
 - type: checkboxes
   attributes:
