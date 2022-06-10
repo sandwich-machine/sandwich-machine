@@ -4,7 +4,7 @@ title: "[CORE] <title>"
 labels: [enhancement]
 assignees:
   - electron271
-  - SoupDevHub
+  - SoupHuman
 body:
 - type: checkboxes
   attributes:
