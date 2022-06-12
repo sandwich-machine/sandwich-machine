@@ -12,21 +12,26 @@ function sandwichSettings() {
     console.log("1. Output to console\n2. Log to file\n3. Quit\n");
     // Get input
     var input = prompt("Enter what you want to do: ");
-    if (input == 1) {
-        // Output to console
-        console.log("\nYour sandwich will be a " + sandwichTypes[Math.floor(Math.random() * sandwichTypes.length)] + " sandwich.\n");
-        // Run src/generate.js function sandwichSettings();
-        sandwichSettings();
-    } else if (input == 2) {
-        // Log to file
-        console.log("\nYour sandwich will be a " + sandwichTypes[Math.floor(Math.random() * sandwichTypes.length)] + " sandwich.\n");
-        // Run src/generate.js function sandwichSettings();
-        sandwichSettings();
-    }
-    else {
-        // Quit
-        console.log("\nThanks for using Sandwich Machine!\n");
-        console.log("Have a nice day, and don't forget to eat a sandwich!\n");
-        process.exit();
+    // Switch on input
+    switch (input) {
+        case "1":
+            // Output to console
+            console.log("\nYour sandwich will be a " + sandwichTypes[Math.floor(Math.random() * sandwichTypes.length)] + " sandwich.\n");
+            // Run src/generate.js function sandwichSettings();
+            sandwichSettings();
+            break;
+        case "2":
+            // Log to file
+            console.log("\nYour sandwich will be a " + sandwichTypes[Math.floor(Math.random() * sandwichTypes.length)] + " sandwich.\n");
+            // Run src/generate.js function sandwichSettings();
+            sandwichSettings();
+            break;
+        case "3":
+            // Quit
+            console.log("\nThanks for using the Sandwich Machine!\n");
+            break;
+        default:
+            // Invalid input
+            console.log("\nInvalid input!\n");
     }
 }

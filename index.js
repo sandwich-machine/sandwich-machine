@@ -3,8 +3,8 @@
 // main.js
 
 // Load the modules
-require("./generate.js");
-require("./credits.js");
+require("./src/generate.js");
+require("./src/credits.js");
 
 
 // Define sandwich types
@@ -19,11 +19,11 @@ var input = prompt("Enter what you want to do: ");
 switch (input) {
     case "1":
         // Generate a sandwich
-        generate();
+        generate.generateSandwich();
         break;
     case "2":
         // Show credits
-        credits();
+        credits.credits();
         break;
     case "3":
         // Quit
