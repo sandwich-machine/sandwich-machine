@@ -3,8 +3,7 @@
 // main.js
 
 // Load the modules
-require("./src/generate.js");
-require("./src/credits.js");
+require("./src/credits.json");
 
 
 // Define sandwich types
