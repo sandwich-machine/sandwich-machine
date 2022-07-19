@@ -3,8 +3,8 @@
 // main.js
 
 // Load the modules
-require("./ingredients.json");
-require("./credits.json");
+const ingredients = require("./ingredients.json");
+const credits = require("./credits.json");
 
 
 // Define sandwich types
