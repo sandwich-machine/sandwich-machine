@@ -18,9 +18,8 @@ var input = prompt("Enter what you want to do: ");
 // Switch on input
 switch (input) {
     case "1":
-        // Generate a sandwich
-        generate.generateSandwich();
-        break;
+        console.log("Generating Sandwich");
+        
     case "2":
         // Show credits
         credits.credits();
