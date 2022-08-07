@@ -2,11 +2,11 @@
 //
 // src/generate.js
 
-// Sandwich variables
-var sandwichTypes = ["classic","grilled","double","bagel","burger"];
+// load ./src/recources/ingredients.json
+var ingredients = require('./resources/ingredients.json');
 
 // Generate function
-function sandwichSettings() {
+function generateSandwich() {
     // Menu
     console.log("Sandwich settings\n");
     console.log("1. Output to console\n2. Log to file\n3. Quit\n");

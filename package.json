@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sandwich-machine/sandwich-machine/issues"
   },
-  "homepage": "https://sandwich-machine.github.io"
+  "homepage": "https://sandwich-machine.github.io",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }

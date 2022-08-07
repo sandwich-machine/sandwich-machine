@@ -15,21 +15,3 @@
 
 ## About
 A generator to generate random sandwiches
-
-## Credits
-
-> **[Soup](https://github.com/SoupDevHub) - Main development, Documentation, Professional Gigachad**
-> 
-> OS: Windows
->
-> Langs: JS, Python, Does C# off github
->
-> Fun Fact: He called his projects "Trash projects".. even though I think they're awesome!
-
-> **[electron271](https://github.com/electron271) - Development, Documentation, Testing**
-> 
-> OS: Windows
-> 
-> Langs: Max, Python
-> 
-> Fun Fact: I'm a musician on soundcloud
