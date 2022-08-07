@@ -2,7 +2,7 @@
 //
 // src/generate.js
 
-// load ./src/recources/ingredients.json
+// load ./src/resources/ingredients.json
 var ingredients = require('./resources/ingredients.json');
 
 // Generate function
