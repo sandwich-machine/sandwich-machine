@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Leaders in sandwich innovation",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "run": "node index.js"
+    "run": "node index.js",
+    "test": "node tests/test.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,7 @@
   },
   "homepage": "https://sandwich-machine.github.io",
   "dependencies": {
+    "chalk": "^5.0.1",
     "prompt-sync": "^4.2.0"
   }
 }
