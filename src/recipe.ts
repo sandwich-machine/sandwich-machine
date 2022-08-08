@@ -4,6 +4,7 @@ module.exports = {
 }
 
 function getRecipe(type, thing1, thing2, spread){
+    var recipe = '';
     switch (type) {
         case "classic":
             recipe = `Your sandwich type is Classic.
@@ -16,7 +17,7 @@ function getRecipe(type, thing1, thing2, spread){
             Step 7: Enjoy your sandwich, and have a nice day! :)`;
             break;
         case "grilled":
-            recipe = `Your sandwich type is Grilled.
+            var recipe = `Your sandwich type is Grilled.
             Step 1: Get two slices of bread.
             Step 2: Put ${thing1} on the first slice of bread.
             Step 3: Put ${thing2} on top of the ${thing1}.

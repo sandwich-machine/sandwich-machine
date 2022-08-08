@@ -3,7 +3,7 @@
 // main.js
 
 // Load the modules
-const generate = require('./src/generate.js');
+const generate = require('./src/generate.ts');
 const prompt = require('prompt-sync')();
 
 // Define sandwich types

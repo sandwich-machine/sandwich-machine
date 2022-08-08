@@ -3,8 +3,8 @@
 // src/generate.js
 
 // Load the modules
+const recipe = require('./recipe.ts');
 const prompt = require('prompt-sync')();
-const recipe = require('./recipe.js');
 
 // Export the function
 module.exports = {
