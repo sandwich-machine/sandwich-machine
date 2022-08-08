@@ -34,22 +34,22 @@ function getRecipe(type, thing1, thing2, spread){
         case "bagel":
             recipe = `Your sandwich type is Bagel.
             Step 1: Slice a bagel.
-            Step 2: Put ${thing1} on the first slice of bread.
+            Step 2: Put ${thing1} on the bagel slice
             Step 3: Put ${thing2} on top of the ${thing1}.
             Step 4: Spread ${spread} on top of the ${thing2}.
-            Step 5: Put the second slice of bread on top of the ${spread}.
-            Step 6 (optional): Cut your sandwich!
-            Step 7: Enjoy your sandwich, and have a nice day! :)`;
+            Step 5: Put the other slice on top of the ${spread}.
+            Step 6 (optional): Cut your bagel!
+            Step 7: Enjoy your bagel, and have a nice day! :)`;
             break;
         case "burger":
-            recipe = `Your sandwich type is Classic.
-            Step 1: Get two slices of bread.
-            Step 2: Put ${thing1} on the first slice of bread.
+            recipe = `Your sandwich type is Burger.
+            Step 1: Get a burger bun.
+            Step 2: Put ${thing1} on the first half of the bun.
             Step 3: Put ${thing2} on top of the ${thing1}.
             Step 4: Spread ${spread} on top of the ${thing2}.
-            Step 5: Put the second slice of bread on top of the ${spread}.
+            Step 5: Put the second half of the bun on top of the ${spread}.
             Step 6 (optional): Cut your sandwich!
-            Step 7: Enjoy your sandwich, and have a nice day! :)`;
+            Step 7: Enjoy your burger, and have a nice day! :)`;
             break;
     }
     return recipe;

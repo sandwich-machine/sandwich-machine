@@ -1,5 +1,6 @@
 {
   "quality-control": {
+    "types": [ "classic", "grilled", "double", "bagel", "burger" ],
     "things": {
       "classic": [ "cheese", "chicken", "tuna", "salmon", "tomato", "bacon", "lettuce", "turkey", "pickle", "olives", "chili pepper", "ham", "avocado", "cucumber", "pepperoni", "salami", "steak", "jelly", "honey" ],
       "grilled": [ "cheese", "chicken", "tuna", "salmon", "tomato", "bacon", "turkey", "pickle", "olives", "chili pepper", "ham", "avocado", "pepperoni", "salami", "steak" ],
@@ -16,7 +17,7 @@
       "burger": [ "nothing", "mayo", "butter", "mustard", "ketchup" ]
     }
   },
-
+  
   "pure-madness": {
     "things": [ "cheese", "chicken", "tuna", "salmon", "tomato", "bacon", "lettuce", "turkey", "pickle", "olives", "chili pepper", "ham", "avocado", "cucumber", "pepperoni", "salami", "steak", "jelly", "honey" ],
     "spreads": [ "nothing", "mayo", "peanut butter", "avocado", "cream cheese", "mustard", "ketchup", "spaghetti" ]

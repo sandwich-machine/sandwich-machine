@@ -19,7 +19,7 @@ switch (input) {
     case "1":
         console.log("Generating Sandwich..\n");
         // Generate a sandwich
-        generate.generateSandwich();
+        generate.sandwichMenu();
         break;
     case "2":
         // Quit
