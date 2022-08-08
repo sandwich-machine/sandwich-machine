@@ -1,0 +1,25 @@
+{
+  "quality-control": {
+    "types": [ "classic", "grilled", "double", "bagel", "burger" ],
+    "things": {
+      "classic": [ "cheese", "chicken", "tuna", "salmon", "tomato", "bacon", "lettuce", "turkey", "pickle", "olives", "chili pepper", "ham", "avocado", "cucumber", "pepperoni", "salami", "steak", "jelly", "honey" ],
+      "grilled": [ "cheese", "chicken", "tuna", "salmon", "tomato", "bacon", "turkey", "pickle", "olives", "chili pepper", "ham", "avocado", "pepperoni", "salami", "steak" ],
+      "double": [ "cheese", "chicken", "tuna", "salmon", "tomato", "bacon", "lettuce", "turkey", "pickle", "olives", "chili pepper", "ham", "avocado", "cucumber", "pepperoni", "salami", "steak", "jelly", "honey" ],
+      "bagel": [ "cheese", "tomato", "bacon", "lettuce", "ham", "avocado", "cucumber", "pepperoni", "salami", "lox", "onions", "jelly", "capers" ],
+      "burger": [ "cheese", "chicken", "tomato", "bacon", "lettuce", "turkey", "pickle", "olives", "chili pepper", "cucumber", "steak" ]
+    },
+
+    "spreads": {
+      "classic": [ "nothing", "mayo", "peanut butter", "avocado", "cream cheese", "mustard", "ketchup" ],
+      "grilled": [ "nothing", "mayo", "avocado", "honey", "mustard", "ketchup" ],
+      "double": [ "nothing", "mayo", "peanut butter", "avocado", "cream cheese", "mustard", "ketchup" ],
+      "bagel": [ "nothing", "peanut butter", "cream cheese", "avocado" ],
+      "burger": [ "nothing", "mayo", "butter", "mustard", "ketchup" ]
+    }
+  },
+  
+  "pure-madness": {
+    "things": [ "cheese", "chicken", "tuna", "salmon", "tomato", "bacon", "lettuce", "turkey", "pickle", "olives", "chili pepper", "ham", "avocado", "cucumber", "pepperoni", "salami", "steak", "jelly", "honey" ],
+    "spreads": [ "nothing", "mayo", "peanut butter", "avocado", "cream cheese", "mustard", "ketchup", "spaghetti" ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "sandwich-machine",
+  "version": "1.0.0",
+  "description": "Leaders in sandwich innovation",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandwich-machine/sandwich-machine.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sandwich-machine/sandwich-machine/issues"
+  },
+  "homepage": "https://sandwich-machine.github.io",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
