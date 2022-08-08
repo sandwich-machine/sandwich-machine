@@ -2,6 +2,15 @@
 //
 // src/generate.js
 
+// Load the modules
+const prompt = require('prompt-sync')();
+const recipe = require('./recipe.js');
+
+// Export the function
+module.exports = {
+    sandwichMenu: sandwichMenu
+}
+
 // load ./src/resources/ingredients.json
 var ingredients = require('./resources/ingredients.json');
 // Load sandwich ingredients and types
@@ -65,10 +74,9 @@ function generateSandwich() {
             break;
     }
     // Output to console
-    console.log(getRecipe(type, thing1, thing2, spread));
+    console.log(recipe.getRecipe(type, thing1, thing2, spread));
 }
 
-// Menu function
 function sandwichMenu() {
     // Menu
     console.log("Sandwich settings\n");

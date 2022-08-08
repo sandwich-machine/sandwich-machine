@@ -1,3 +1,8 @@
+// Module exports
+module.exports = {
+    getRecipe: getRecipe
+}
+
 function getRecipe(type, thing1, thing2, spread){
     switch (type) {
         case "classic":
