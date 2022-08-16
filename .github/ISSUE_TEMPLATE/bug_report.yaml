@@ -38,11 +38,11 @@ body:
 - type: textarea
   attributes:
     label: Environment
-    description: |
+    description: 
       examples:
-        - **OS**: Ubuntu 20.04
-        - **Python**: 3.9
-        - **pip3**: 21.2.4
+        - **OS**: Windows 10 Pro 21H2
+        - **Node**: 16.16.0
+        - **npm**: 8.11.0
     value: |
         - OS:
         - Python:
