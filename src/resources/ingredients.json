@@ -11,7 +11,7 @@
 
     "spreads": {
       "classic": [ "nothing", "mayo", "peanut butter", "avocado", "cream cheese", "mustard", "ketchup" ],
-      "grilled": [ "nothing", "mayo", "avocado", "honey", "mustard", "ketchup" ],
+      "grilled": [ "nothing", "mayo", "avocado", "mustard", "ketchup" ],
       "double": [ "nothing", "mayo", "peanut butter", "avocado", "cream cheese", "mustard", "ketchup" ],
       "bagel": [ "nothing", "peanut butter", "cream cheese", "avocado" ],
       "burger": [ "nothing", "mayo", "butter", "mustard", "ketchup" ]
@@ -19,7 +19,7 @@
   },
   
   "pure-madness": {
-    "things": [ "cheese", "chicken", "tuna", "salmon", "tomato", "bacon", "lettuce", "turkey", "pickle", "olives", "chili pepper", "ham", "avocado", "cucumber", "pepperoni", "salami", "steak", "jelly", "honey" ],
+    "things": [ "cheese", "chicken", "tuna", "salmon", "tomato", "bacon", "lettuce", "turkey", "pickle", "olives", "chili pepper", "ham", "avocado", "cucumber", "pepperoni", "salami", "steak", "jelly", "honey", "lox", "capers", "spaghetti" ],
     "spreads": [ "nothing", "mayo", "peanut butter", "avocado", "cream cheese", "mustard", "ketchup", "spaghetti" ]
   }
 }
