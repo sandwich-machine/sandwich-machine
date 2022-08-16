@@ -20,7 +20,7 @@ body:
     required: false
 - type: textarea
   attributes:
-    label: How will this improve our application
+    label: How will this improve our documentation
     description: Information of how this new feature will improve our documentation
   validations:
     required: false
