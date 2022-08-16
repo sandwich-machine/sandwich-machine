@@ -10,7 +10,7 @@
 </p>
 
 ## How To Run
-1. Install [node](https://nodejs.org/) if you haven't already.
+1. Install [node.js](https://nodejs.org/) if you haven't already.
 2. Double click run.bat (or run.sh if you're on mac or linux)
 
 ## About
