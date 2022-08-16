@@ -1,3 +1,3 @@
 #!/bin/bash
-// Run sandwich-machine
+# Run sandwich-machine
 npm start
