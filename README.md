@@ -16,4 +16,4 @@
 We created this project about summer 2021, as a continuation of a fun project Soup made, and over the time we have contributed it, it started as just a fun project, and is now a big and fun project that we have fun making!
 
 ## Modding
-We have a modding documentation [here](https://github.com/sandwich-machine/sandwich-machine/documentation)
+We have a modding documentation [here](https://github.com/sandwich-machine/sandwich-machine/Documentation.md)
