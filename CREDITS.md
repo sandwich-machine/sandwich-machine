@@ -1,7 +1,7 @@
 # Credits
-> **[Soup](https://github.com/SoupDevHub) - Original Author, Developer, Documentation**
+> **[Soup](https://github.com/SoupHuman) - Original Author, Developer, Documentation**
 > 
-> **Website**: [https://github.com/SoupHuman](https://github.com/SoupHuman)
+> **Website**: https://linktr.ee/SoupHuman
 
 > **[electron271](https://github.com/electron271) - Development, Documentation, Testing**
 > 
