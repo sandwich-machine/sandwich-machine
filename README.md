@@ -11,7 +11,7 @@
 
 ## How To Run
 1. Install [node.js](https://nodejs.org/) if you haven't already.
-2. Double click run.bat (or run.sh if you're on mac or linux)
+2. On Windows double click run.bat, on Linux you run `./run.sh`
 
 ## About
 A generator to generate random sandwiches
