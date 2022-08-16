@@ -4,7 +4,7 @@
   "description": "Leaders in sandwich innovation",
   "main": "index.js",
   "scripts": {
-    "run": "node index.js"
+    "run": "node index.js",
     "start": "node index.js"
   },
   "repository": {
