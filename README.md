@@ -16,4 +16,4 @@
 We created this project about summer 2021, as a continuation of a fun project Soup made, and over the time we have contributed it, it started as just a fun project, and is now a big and fun project that we have fun making!
 
 ## Docs
-View our docs [here](https://github.com/sandwich-machine/sandwich-machine/wiki) on Github Wiki! Configuring, info, and more!
+View our docs [here](https://github.com/sandwich-machine/sandwich-machine/wiki) on Github Wiki! Configuring, info, modding, and more!
