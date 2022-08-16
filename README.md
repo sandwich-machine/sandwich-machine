@@ -12,6 +12,7 @@
 ## How To Run
 1. Install [node.js](https://nodejs.org/) if you haven't already.
 2. On Windows double click run.bat, on Linux you run `./run.sh`
+> You can also run `npm start`!
 
 ## About
 A generator to generate random sandwiches
