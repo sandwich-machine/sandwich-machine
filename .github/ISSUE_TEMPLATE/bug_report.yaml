@@ -46,8 +46,8 @@ body:
         - **npm**: 8.11.0
     value: |
         - OS:
-        - Python:
-        - pip3:
+        - Node:
+        - npm:
     render: markdown
   validations:
     required: true
