@@ -1,1 +1,1 @@
-npm install prompt-sync
+npm install -g prompt-sync
