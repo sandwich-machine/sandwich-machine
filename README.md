@@ -15,4 +15,4 @@
 > Tip: you can also run `npm start`!
 
 ## About
-A generator to generate random sandwiches
+A generator to generate random sandwiches!
