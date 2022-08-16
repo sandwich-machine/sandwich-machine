@@ -15,4 +15,4 @@
 > Tip: you can also run `npm start`!
 
 ## About
-A generator to generate random sandwiches!
+We created this project about summer 2021, as a continuation of a fun project Soup made, and over the time we have contributed it, it started as just a fun project, and is now a big and fun project that we have fun making!
