@@ -4,6 +4,7 @@ title: "[BUG] <title>"
 labels: [bug]
 assignees:
   - electron271
+  - SoupHuman
 body:
 - type: checkboxes
   attributes:
@@ -38,7 +39,7 @@ body:
 - type: textarea
   attributes:
     label: Environment
-    description: 
+    description: |
       examples:
         - **OS**: Windows 10 Pro 21H2
         - **Node**: 16.16.0
