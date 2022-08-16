@@ -5,14 +5,13 @@
 // Load the modules
 const prompt = require('prompt-sync')();
 const recipe = require('./recipe.js');
+const ingredients = require('./resources/ingredients.json');
 
 // Export the function
 module.exports = {
     sandwichMenu: sandwichMenu
 }
 
-// load ./src/resources/ingredients.json
-var ingredients = require('./resources/ingredients.json');
 // Load sandwich ingredients and types
 var types = ingredients['quality-control'].types;
 var thingsClassic = ingredients['quality-control'].things.classic;
