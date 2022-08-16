@@ -12,7 +12,7 @@ function getRecipe(type, thing1, thing2, spread){
             Step 3: Put ${thing2} on top of the ${thing1}.
             Step 4: Spread ${spread} on top of the ${thing2}.
             Step 5: Put the second slice of bread on top of the ${spread}.
-            Step 6 (optional): Cut your sandwich!
+            Step 6 (optional): Cut your sandwich into TRIANGLES!
             Step 7: Enjoy your sandwich, and have a nice day! :)`;
             break;
         case "grilled":
@@ -23,7 +23,7 @@ function getRecipe(type, thing1, thing2, spread){
             Step 4: Spread ${spread} on top of the ${thing2}.
             Step 5: Put the second slice of bread on top of the ${spread}.
             Step 6: Grill your sandwich.
-            Step 7 (optional): Cut your sandwich!
+            Step 7 (optional): Cut your sandwich into TRIANGLES!
             Step 8: Enjoy your sandwich, and have a nice day! :)`;
             break;
         case "double":
@@ -33,7 +33,7 @@ function getRecipe(type, thing1, thing2, spread){
             Step 3: Put ${thing2} on top of the ${thing1}.
             Step 4: Spread ${spread} on top of the ${thing2}.
             Step 5: Put the stacks on top of each other and put the other slice on.
-            Step 6 (optional): Cut your sandwich!
+            Step 6 (optional): Cut your sandwich into TRIANGLES!
             Step 7: Enjoy your sandwich, and have a nice day! :)`;
             break;
         case "bagel":
@@ -43,8 +43,7 @@ function getRecipe(type, thing1, thing2, spread){
             Step 3: Put ${thing2} on top of the ${thing1}.
             Step 4: Spread ${spread} on top of the ${thing2}.
             Step 5: Put the other slice on top of the ${spread}.
-            Step 6 (optional): Cut your bagel!
-            Step 7: Enjoy your bagel, and have a nice day! :)`;
+            Step 6: Enjoy your bagel, and have a nice day! :)`;
             break;
         case "burger":
             recipe = `Your sandwich type is Burger.
@@ -53,8 +52,7 @@ function getRecipe(type, thing1, thing2, spread){
             Step 3: Put ${thing2} on top of the ${thing1}.
             Step 4: Spread ${spread} on top of the ${thing2}.
             Step 5: Put the second half of the bun on top of the ${spread}.
-            Step 6 (optional): Cut your sandwich!
-            Step 7: Enjoy your burger, and have a nice day! :)`;
+            Step 6: Enjoy your burger, and have a nice day! :)`;
             break;
     }
     return recipe;
