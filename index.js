@@ -14,6 +14,7 @@ console.log("sandwich-machine.github.io\nBy SoupHuman and electron271\n\n");
 console.log("Welcome to the Sandwich Machine!\n");
 console.log("1. Generate a sandwich\n2. Quit\n");
 // Get input
+/** @type {string} **/
 var input = prompt("Enter what you want to do: ");
 // Switch on input
 switch (input) {
