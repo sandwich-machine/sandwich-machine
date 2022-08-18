@@ -1,3 +1,4 @@
+// @ts-check
 // Sandwich Machine by SoupHuman and electron271
 //
 // main.js

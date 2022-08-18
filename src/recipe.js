@@ -1,3 +1,4 @@
+// @ts-check
 // Module exports
 module.exports = {
     getRecipe: getRecipe
