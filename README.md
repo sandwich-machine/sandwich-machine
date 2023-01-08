@@ -5,6 +5,7 @@
     <img src="https://img.shields.io/github/repo-size/sandwich-machine/sandwich-machine?style=for-the-badge"/>
     <img src="https://img.shields.io/github/languages/top/sandwich-machine/sandwich-machine?style=for-the-badge"/>
     <img src="https://img.shields.io/github/commit-activity/w/sandwich-machine/sandwich-machine?style=for-the-badge"/>
+    <img src="https://img.shields.io/discord/1004210364092780554?label=Discord&style=for-the-badge"/>
 </p>
 
 ## How To Run
