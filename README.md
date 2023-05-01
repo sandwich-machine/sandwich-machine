@@ -10,8 +10,7 @@
 
 ## How To Run
 1. Install [node.js](https://nodejs.org/) if you haven't already.
-2. On Windows open the file `run.bat`, on Linux you run `./run.sh`
-> Tip: you can also run `npm start` on either platform!
+2. Run `npm start` from cmd/terminal!
 
 ## About
 We created this project about summer 2021, as a continuation of a fun project Soup made, and over the time we have contributed it, it started as just a fun project, and is now a big and fun project that we have fun making!
